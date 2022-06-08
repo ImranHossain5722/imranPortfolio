@@ -34,7 +34,7 @@ const NavBar = ({ children }) => {
             </div>
             <div class="flex-1 px-2 mx-2 text-4xl text-blue-400 uppercase font-bold">
             <NavLink to="/" className="rounded-lg">
-             Leather
+             I Portfolio
               </NavLink>
               
             </div>
@@ -52,22 +52,12 @@ const NavBar = ({ children }) => {
                     My Portfolio
                   </NavLink>
                 </li>
-              
-
-                <li>
-                  {user && (
-                    <NavLink to="/dashboard" className="rounded-lg">
-                      Dashboard
-                    </NavLink>
-                  )}
-                </li>
-
                 <li>
                   <NavLink to="/blogs" className="rounded-lg">
                     Blogs
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   {user ? (
                     <button className="btn btn-ghost" onClick={handelSignOut}>
                       Sign Out
@@ -77,13 +67,9 @@ const NavBar = ({ children }) => {
                       Login
                     </NavLink>
                   )}
-                </li>
+                </li> */}
 
-                <li>
-                  <NavLink to="/signup" className="rounded-lg">
-                    Sign Up
-                  </NavLink>
-                </li>
+                
                 <label class="swap swap-rotate ">
                   {/* <!-- this hidden checkbox controls the state --> */}
                   <input type="checkbox" onClick={() => setDark(!dark)} />
@@ -139,21 +125,6 @@ const NavBar = ({ children }) => {
             <li>
               <NavLink to="/portfolio" className="rounded-lg">
                 My Portfolio
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/dashboard" className="rounded-lg">
-                Dashboard
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/login" className="rounded-lg">
-                Login
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/signup" className="rounded-lg">
-                Sign Up
               </NavLink>
             </li>
           </ul>

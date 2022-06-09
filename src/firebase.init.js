@@ -14,12 +14,7 @@ const firebaseConfig = {
   messagingSenderId:process.env.REACT_APP_MESSAGING_SENDER_ID,
   appId:process.env.REACT_APP_APP_ID
   
-//   apiKey: "AIzaSyAfOQfOfaMmfCc-0ZclmtpG_WzAs9ebc08",
-//   authDomain: "imran-portfolio-86d8a.firebaseapp.com",
-//   projectId: "imran-portfolio-86d8a",
-//   storageBucket: "imran-portfolio-86d8a.appspot.com",
-//   messagingSenderId: "391062191577",
-//   appId: "1:391062191577:web:3d6627b816b0754f0a2dc8"
+
 
 
 };

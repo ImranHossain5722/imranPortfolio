@@ -24,7 +24,7 @@ module.exports = {
 "warning": "#EFD8BD",
         
 "error": "#E58B8B",
-"myColor":"#3e3a3b",
+"myColor":"#7510f7",
         },
       },
       "dark",

@@ -48,15 +48,11 @@ const NavBar = ({ children }) => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/portfolio" className="rounded-lg">
-                    My Portfolio
+                  <NavLink to="/contact" className="rounded-lg">
+                    Contact Me
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to="/blogs" className="rounded-lg">
-                    Blogs
-                  </NavLink>
-                </li>
+                
                 {/* <li>
                   {user ? (
                     <button className="btn btn-ghost" onClick={handelSignOut}>
@@ -123,8 +119,8 @@ const NavBar = ({ children }) => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/portfolio" className="rounded-lg">
-                My Portfolio
+              <NavLink to="/contact" className="rounded-lg">
+                Contact Me
               </NavLink>
             </li>
           </ul>

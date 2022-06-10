@@ -8,27 +8,27 @@ const ContactMe = () => {
     <div class="hero min-h-screen bg-base-200">
       <div class="hero-content flex flex-col   md:flex-row ">
 
-        <div class="text-center lg:text-left w-1/2">
-          <h1 class="text-5xl font-bold capitalize ">Contact me for more information!</h1>
+        <div class="text-center lg:text-left w-1/2 lg:w-1/2">
+          <h1 class=" text-xl lg:text-4xl font-bold capitalize ">Contact me for more information!</h1>
           
           <p class="py-6">
           I’m excited to learn about your project. Ready to get started?.
           </p>
           <div className="">
               <div className="flex gap-1 py-2">
-                  <img className="w-7" src={email} alt='social'/> <a className=" text-2xl font-bold" href="mailto:imranhossain.webdev@gmail.com">imranhossain.webdev@gmail.com </a>
+                  <img className="w-7" src={email} alt='social'/> <a className="  lg:text-2xl font-bold" href="mailto:imranhossain.webdev@gmail.com">imranhossain.webdev@gmail.com </a>
               </div>
               <div className="flex gap-1">
-                  <img className="w-7" src={phone} alt='social'/> <a className=" text-2xl font-bold" href="tel:01688615454">(+88) 01688615454 </a>
+                  <img className="w-7" src={phone} alt='social'/> <a className=" lg:text-2xl font-bold" href="tel:01688615454">(+88) 01688615454 </a>
               </div>
               <div className="flex gap-1 py-2">
-                  <img className="w-7" src={whatsUp} alt='social'/> <a className=" text-2xl font-bold" href="#">(+88) 01688615454 </a>
+                  <img className="w-7" src={whatsUp} alt='social'/> <a className=" lg:text-2xl font-bold" href="#">(+88) 01688615454 </a>
               </div>
           </div>
         </div>
 
 
-        <div class="card flex-shrink-0 w-1/2 max-w-sm shadow-2xl  bg-base-100">
+        <div class="card flex-shrink-2 w-1/2 max-w-sm shadow-2xl  bg-base-100">
           <div class="card-body">
               <div>
               <h1 className="text-4xl font-bold ">Contact Me </h1>

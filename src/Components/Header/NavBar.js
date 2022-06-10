@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from '../../Assets/images/ProjectDetail/Capture-removebg-preview.png'
 
 
 const NavBar = ({ children }) => {
@@ -34,7 +35,7 @@ const NavBar = ({ children }) => {
             </div>
             <div class="flex-1 px-2 mx-2 text-4xl text-blue-400 uppercase font-bold">
             <NavLink to="/" className="rounded-lg">
-             I Portfolio
+             <img className=" py-4 w-20" src={logo} alt='logo'/>
               </NavLink>
               
             </div>
@@ -91,7 +92,7 @@ const NavBar = ({ children }) => {
               </ul>
             </div>
             {/* Dashboard Sidebar */}
-            <label for="my-DashboardDrawer" class="btn drawer-button lg:hidden "><svg
+            {/* <label for="my-DashboardDrawer" class="btn drawer-button lg:hidden "><svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -103,7 +104,7 @@ const NavBar = ({ children }) => {
                     stroke-width="2"
                     d="M4 6h16M4 12h16M4 18h16"
                   ></path>
-                </svg></label>
+                </svg></label> */}
           </div>
           {/* <!-- Page content here --> */}
           {children}

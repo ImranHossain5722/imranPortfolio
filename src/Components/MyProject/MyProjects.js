@@ -97,7 +97,7 @@ const MyProjects = () => {
 
               <a
                 className="btn btn-sm btn-primary text-xs"
-                href="#"
+                href="/WareHouseDetails"
                 rel="noopener noreferrer"
                 target="_blank"
               >

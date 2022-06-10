@@ -1,11 +1,12 @@
 import React from "react";
-import banner from "../../Assets/images/ProjectDetail/website-project-management-blog.png";
-import Image from "../../Assets/images/leather_factory.jpg";
-import login from "../../Assets/images/ProjectDetail/smartmockups_l48ecg3a.jpg";
-import signUp from "../../Assets/images/ProjectDetail/smartmockups_l48edtxf.jpg";
-import dashboard from "../../Assets/images/ProjectDetail/dasboard.jpg";
-import homeLight from "../../Assets/images/ProjectDetail/home-light.jpg";
-import homeDark from "../../Assets/images/ProjectDetail/home-dark.jpg";
+import banner from "../../Assets/images/carSale.jpg";
+import Image from "../../Assets/images/carSale.jpg";
+import login from "../../Assets/images/ProjectDetail/carLogin.jpg";
+import signUp from "../../Assets/images/ProjectDetail/carSign.jpg";
+
+import homeLight from "../../Assets/images/ProjectDetail/carSaleHome.jpg";
+import manageItem from "../../Assets/images/ProjectDetail/smartmockups_l48pavhy.jpg";
+import uploadProduct from "../../Assets/images/ProjectDetail/uploadProduc.jpg";
 
 const Manufacturer = () => {
   return (
@@ -24,11 +25,11 @@ const Manufacturer = () => {
           <div class="max-w-md">
             <h1 class="mb-5 text-3xl text-white font-bold">
               {" "}
-              Laather Manufacturer Project
+              CarSale warehouse
             </h1>
             <p class="mb-5 text-white">
-              This is a full stack web development project that uses MongoDB as
-              the back-end database,
+              This is a full stack web development project that utilizes MongoDB
+              as the back end database.
             </p>
             <a
               className="btn btn-primary btn-lg"
@@ -92,11 +93,11 @@ const Manufacturer = () => {
         {/* 4th */}
         <div class="card lg:card bg-base-100 shadow-xl">
           <figure>
-            <img className="w-96" src={dashboard} alt="Album" />
+            <img className="w-96" src={uploadProduct} alt="Album" />
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary "> User Dashboard </p>
+              <p className="text-primary ">Upload pruduct </p>
             </div>
           </div>
         </div>
@@ -107,18 +108,18 @@ const Manufacturer = () => {
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Home Page Light Mood </p>
+              <p className="text-primary ">Home Page</p>
             </div>
           </div>
         </div>
         {/* 6th */}
         <div class="card lg:card bg-base-100 shadow-xl">
           <figure>
-            <img className="w-96" src={homeDark} alt="Album" />
+            <img className="w-96" src={manageItem} alt="Album" />
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Home Page Dark Mood</p>
+              <p className="text-primary ">Mange Product Item Page</p>
             </div>
           </div>
         </div>
@@ -126,20 +127,20 @@ const Manufacturer = () => {
       <div className="w-1/2  mx-auto my-10">
         <div class="card lg:card-side bg-base-100 shadow-xl">
           <div class="card-body">
-          <div className="pt-1">
-        <h1 className="pt-12 text-center lg:text-4xl font-bold uppercase ">
-          Project Summery
-        </h1>
-    
-        <progress class="progress progress-primary w-16 h-1 "></progress>
-      </div>
+            <div className="pt-1">
+              <h1 className="pt-12 text-center lg:text-4xl font-bold uppercase ">
+                Project Summery
+              </h1>
+
+              <progress class="progress progress-primary w-16 h-1 "></progress>
+            </div>
             <h2 class=" text-left">
               <ul>
                 <li>
                   {" "}
                   <span className="text-primary font-bold">*-* </span>{" "}
-                  <span className="font-bold"> Project Name:</span> Leather
-                  Factory Manufacturer{" "}
+                  <span className="font-bold"> Project Name:</span> CareSlae
+                  Warhouse.
                 </li>
                 <li>
                   {" "}
@@ -164,14 +165,18 @@ const Manufacturer = () => {
                 </li>
                 <li>
                   <span className="text-primary font-bold ">*-*</span> API links
-                  will be protected with JWT and customers can order products.
-                  Admin can manage all orders, upload products, and cancel
-                  orders
+                  will be protected with JWT.
                 </li>
+                <li>
+                  <span className="text-primary font-bold ">*-*</span> customers
+                  can order products. Admin can manage all orders, upload
+                  products, and cancel orders.
+                </li>
+
                 <li>
                   {" "}
                   <span className="text-primary font-bold">*-* </span>{" "}
-                  <span className="font-bold"> Technology Used:</span> React,
+                  <span className="font-bold"> Technology Used:</span> : React,
                   HTMl ,CSS, Tailwind,Daisyui,JavaScript, React hook
                   form,React-Toastify,Firebase,React-Query, React-firebase hook,
                   Node.js, MongoDB,Jwt.

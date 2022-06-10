@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
-import MySkills from '../MySkills/MySkills';
+import ContactMe from '../ContactMe/ContactMe';
+import MyProjects from '../MyProject/MyProjects';
 import HomeTopSection from './HomeSections/HomeTopSection';
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
         <div className='Home-main'>
             <HomeTopSection></HomeTopSection>
             <AboutMe></AboutMe>
-            <MySkills></MySkills>
+            <MyProjects></MyProjects>
+            <ContactMe></ContactMe>
         </div>
     );
 };

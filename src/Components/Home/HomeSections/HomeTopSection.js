@@ -21,17 +21,9 @@ const HomeTopSection = () => {
               </div>
             </div>
             <div className="m-5">
-              <button
-                type="button"
-                className="btn btn-primary  btn-outline btn-lg"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href =
-                    "https://drive.google.com/file/d/1uNN0S4ZRsYU6wcds7DWTyjiTbBnF152n/view";
-                }}
-              >
-                My Resume
-              </button>
+
+            <a  className="btn btn-primary  btn-outline btn-lg"  href="https://drive.google.com/file/d/1uNN0S4ZRsYU6wcds7DWTyjiTbBnF152n/view" rel="noopener noreferrer" target="_blank">My Resume</a>
+              
             </div>
 
             {/* code image */}

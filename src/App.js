@@ -6,6 +6,8 @@ import { ToastContainer} from 'react-toastify';
 import NavBar from './Components/Header/NavBar';
 import Home from './Components/Home/Home';
 import ContactMe from './Components/ContactMe/ContactMe';
+import Footer from './Components/Footer/Footer';
+import Manufacturer from './Components/ManufacturerProjectDetail/Manufacturer';
 
 function App() {
   return (
@@ -14,8 +16,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='contact' element={<ContactMe/>}></Route>
+          <Route path='ManufacturerDetail' element={<Manufacturer/>}></Route>
         </Routes>
-
+        <Footer></Footer>
         <ToastContainer/>
        </NavBar>
     </div>

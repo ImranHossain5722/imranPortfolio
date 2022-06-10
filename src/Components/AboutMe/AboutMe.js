@@ -5,9 +5,14 @@ import skill from "../../Assets/images/Website designer-amico.svg";
 const AboutMe = () => {
   return (
     <div className="h-auto" style={{ backgroundColor: "#057AFF",marginTop:'-89px' }}>
+      <h1 class="text-3xl font-bold text-white pt-12">
+              About Me
+            </h1>
+            <progress class="progress progress-primary bg-white w-16 h-1 "></progress>
       <div class="hero ">
         <div class="hero-content text-center">
           <div class="max-w-3xl py-24">
+  
             <h1 class="text-3xl font-bold text-white ">
               Hi, I’m Imran. Nice to meet you
             </h1>
@@ -31,10 +36,10 @@ const AboutMe = () => {
         </div>
 
         <div className="p-5 order-1 lg:order-2">
-          <h1 class="text-5xl font-bold">My Skills </h1>
+          <h1 class="text-5xl font-bold uppercase ">My Skills </h1>
           <p class="p-2">I am always determined to learn new technology.</p>
           <progress class="progress progress-primary w-16 h-1 "></progress>
-          <div className="grid grid-cols-1 lg:grid-cols-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1">
             <div className="html">
               <p className="text-xl font-bold capitalize text-left px-5">HTML</p>
               <br />

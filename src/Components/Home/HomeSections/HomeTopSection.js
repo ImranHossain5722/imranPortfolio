@@ -19,15 +19,15 @@ const HomeTopSection = () => {
       <div    
       class="hero min-h-screen bg-base-100 bg-opacity-70 ">
         <div class="hero-content text-center">
-          <div class="">
-            <h1 class="banner-title text-5xl font-bold pt-10">
+          <div class="pt-5">
+            <h1 class="banner-title text-xl lg:text-5xl md:text-xl text-center font-bold pt-10">
               Designer, Front-end & React Developer{" "}
             </h1>
             <p class="py-6 text-xl">
               I design and code beautifully simple things, and I love what I do.
             </p>
             <div class="avatar">
-              <div class="bounce-in-bck  w-80 rounded-full">
+              <div class="bounce-in-bck w-40 lg:w-80 rounded-full">
                 <img src={imranImage} />
               </div>
             </div>

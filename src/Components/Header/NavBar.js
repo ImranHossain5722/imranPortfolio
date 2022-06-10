@@ -16,6 +16,13 @@ const NavBar = ({ children }) => {
         <div class="drawer-content flex flex-col">
           {/* <!-- Navbar --> */}
           <div class="w-full navbar bg-base-200 bg-opacity-50 px-20 ">
+          <div class="flex-1 px-2 mx-2 text-4xl text-blue-400 uppercase font-bold">
+            <NavLink to="/" className="rounded-lg">
+             <img className=" py-4 w-20" src={logo} alt='logo'/>
+              </NavLink>
+              
+            </div>
+ 
           <div class="flex-none lg:hidden">
               <label for="my-drawer-3" class="btn btn-square btn-ghost">
                 <svg
@@ -33,12 +40,12 @@ const NavBar = ({ children }) => {
                 </svg>
               </label>
             </div>
-            <div class="flex-1 px-2 mx-2 text-4xl text-blue-400 uppercase font-bold">
+            {/* <div class="flex-1 px-2 mx-2 text-4xl text-blue-400 uppercase font-bold">
             <NavLink to="/" className="rounded-lg">
              <img className=" py-4 w-20" src={logo} alt='logo'/>
               </NavLink>
               
-            </div>
+            </div> */}
             
             <div class="flex-none hidden lg:block">
               <ul class="menu menu-horizontal ">

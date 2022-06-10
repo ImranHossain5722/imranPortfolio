@@ -11,6 +11,7 @@ import Manufacturer from './Components/ManufacturerProjectDetail/Manufacturer';
 import WareHouseDetails from './Components/CarSaleWarehouse/WareHouseDetails';
 import SingleFitnessDetails from './Components/SingleFitnes/SingleFitnessDetails';
 import WpProjectDetail from './Components/WpProject/WpProjectDetail';
+import NotFoundPage from './Components/404Page/NotFoundPage';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path='warehouseDetails' element={<WareHouseDetails></WareHouseDetails> }></Route>
           <Route path='singleFitnessDetails' element={<SingleFitnessDetails></SingleFitnessDetails> }></Route>
           <Route path='wpProjectDetail' element={<WpProjectDetail></WpProjectDetail> }></Route>
+
+          <Route path='*' element={<NotFoundPage></NotFoundPage>}></Route>
         </Routes>
         <Footer></Footer>
         <ToastContainer/>

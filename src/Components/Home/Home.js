@@ -6,11 +6,15 @@ import HomeTopSection from './HomeSections/HomeTopSection';
 
 const Home = () => {
     return (
+        
         <div className='Home-main'>
+            <div className='image'>
             <HomeTopSection></HomeTopSection>
             <AboutMe></AboutMe>
             <MyProjects></MyProjects>
             <ContactMe></ContactMe>
+
+           </div> 
         </div>
     );
 };

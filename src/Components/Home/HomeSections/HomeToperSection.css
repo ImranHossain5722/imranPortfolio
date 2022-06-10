@@ -1,0 +1,275 @@
+.bounce-in-bck {
+	-webkit-animation: bounce-in-bck 1.1s both;
+	        animation: bounce-in-bck 1.1s both;
+}
+
+
+/*
+ * ----------------------------------------
+ * animation bounce-in-bck
+ * ----------------------------------------
+ */
+ @-webkit-keyframes bounce-in-bck {
+    0% {
+      -webkit-transform: scale(7);
+              transform: scale(7);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: scale(1.24);
+              transform: scale(1.24);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    89% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: scale(1.04);
+              transform: scale(1.04);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes bounce-in-bck {
+    0% {
+      -webkit-transform: scale(7);
+              transform: scale(7);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: scale(1.24);
+              transform: scale(1.24);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    89% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: scale(1.04);
+              transform: scale(1.04);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+
+  .banner-title{
+        text-align: center;
+        white-space: nowrap;
+        position: relative;
+        color: transparent;
+    }
+
+  .banner-title::before{
+        content: 'Designer, Front-end & React Developer';
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #1b1818;
+        animation: typing 3s linear infinite;
+}
+
+
+@keyframes typing {
+        0% {
+            content: 'D|';
+        }
+    
+        4% {
+            content: 'De|';
+        }
+    
+        8% {
+            content: 'Desi|';
+        }
+    
+        12% {
+            content: 'Desig|';
+        }
+    
+        16% {
+            content: 'Design|';
+        }
+    
+        20% {
+            content: 'Designe|';
+        }
+    
+        24% {
+            content: 'Designer|';
+        }
+    
+        28% {
+            content: 'Designer,|';
+        }
+    
+        32% {
+            content: 'Designer, F|';
+        }
+    
+        36% {
+            content: 'Designer, Fr|';
+        }
+    
+        40% {
+            content: 'Designer, Fro|';
+        }
+    
+        44% {
+            content: 'Designer, Fron|';
+        }
+    
+        48% {
+            content: 'Designer, Front|';
+        }
+    
+        52% {
+            content: 'Designer, Front-|';
+        }
+    
+        56% {
+            content: 'Designer, Front-e|';
+        }
+    
+        60% {
+            content: 'Designer, Front-en|';
+        }
+    
+        64%{
+             content:'Designer, Front-end|';           
+        }
+
+        68% {
+            content: 'Designer, Front-end &|';
+        }
+    
+        70% {
+            content: 'Designer, Front-end & R|';
+        }
+    
+        85% {
+            content: 'Designer, Front-end & Re|';
+        }
+    
+        86% {
+            content: 'Designer, Front-end & Rea|';
+        }
+    
+        87% {
+            content: 'Designer, Front-end & Reac|';
+        }
+    
+        88% {
+            content: 'Designer, Front-end & React|';
+        }
+    
+        89% {
+            content: 'Designer, Front-end & React D|';
+        }
+    
+        90% {
+            content: 'Designer, Front-end & React De|';
+        }
+    
+        91% {
+            content: 'Designer, Front-end & React Dev|';
+        }
+    
+        92% {
+            content: 'Designer, Front-end & React Deve|';
+        }
+    
+        93% {
+            content: 'Designer, Front-end & React Devel|';
+        }
+    
+        94% {
+            content: 'Designer, Front-end & React Develo|';
+        }
+    
+        95% {
+            content: 'Designer, Front-end & React Develop|';
+        }
+    
+        96% {
+            content: 'Designer, Front-end & React Develope|';
+        }
+    
+        97% {
+            content: 'Designer, Front-end & React Developer|';
+        }
+    
+        98% {
+            content: '|';
+        }
+    
+        99% {
+            content: '|';
+        }
+    
+        100% {
+            content: '|';
+        }
+    }

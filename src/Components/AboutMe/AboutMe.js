@@ -1,11 +1,11 @@
 import React from "react";
 import code from "../../Assets/images/Coding-bro.svg";
 import skill from "../../Assets/images/Website designer-amico.svg";
-
+import './AboutMe.css'
 const AboutMe = () => {
   return (
     <div className="h-auto" style={{ backgroundColor: "#057AFF",marginTop:'-89px' }}>
-      <h1 class="text-3xl font-bold text-white pt-12">
+      <h1 class="text-4xl font-bold text-white pt-12">
               About Me
             </h1>
             <progress class="progress progress-primary bg-white w-16 h-1 "></progress>
@@ -30,8 +30,8 @@ const AboutMe = () => {
       </div>
       <div class="grid justify-items-start lg:grid-cols-2 sm:grid-cols-1 mx-auto bg-base-200 w-10/12 drop-shadow-2xl rounded-lg">
         <div className=" order-2 lg:order-1 flex items-center">
-          <figure className="w-96 p-5">
-            <img className="drop-shadow-xl" src={skill} alt="code" />
+          <figure className="fade-in-left w-96 p-5">
+            <img className="drop-shadow-xl " src={skill} alt="code" />
           </figure>
         </div>
 

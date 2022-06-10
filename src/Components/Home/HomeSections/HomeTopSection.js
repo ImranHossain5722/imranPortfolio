@@ -2,21 +2,32 @@ import React from "react";
 import { Link } from "react-router-dom";
 import imranImage from "../../../Assets/images/imranHossain.png";
 import code from "../../../Assets/images/Coding-bro.svg";
+import brainCode from "../../../Assets/images/codeBG.jpg";
+import './HomeToperSection.css'
+
 
 const HomeTopSection = () => {
   return (
-    <div>
-      <div class="hero min-h-screen bg-base-100 ">
+    <div style={{
+      background:`url(${brainCode})`,
+      backgroundSize:"cover",
+      backgroundPosition:"center",
+      backgroundRepeat: "no-repeat",
+    }}
+    
+    >
+      <div    
+      class="hero min-h-screen bg-base-100 bg-opacity-70 ">
         <div class="hero-content text-center">
           <div class="">
-            <h1 class="text-5xl font-bold">
+            <h1 class="banner-title text-5xl font-bold pt-10">
               Designer, Front-end & React Developer{" "}
             </h1>
             <p class="py-6 text-xl">
               I design and code beautifully simple things, and I love what I do.
             </p>
             <div class="avatar">
-              <div class="w-56 rounded-full">
+              <div class="bounce-in-bck  w-80 rounded-full">
                 <img src={imranImage} />
               </div>
             </div>
@@ -28,7 +39,7 @@ const HomeTopSection = () => {
 
             {/* code image */}
             <div className="avatar">
-              <div class="w-96">
+              <div class=" w-96">
                 <img className="" src={code} />
               </div>
             </div>

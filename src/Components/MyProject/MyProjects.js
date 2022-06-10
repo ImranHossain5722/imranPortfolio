@@ -54,7 +54,7 @@ const MyProjects = () => {
 
               <a
                 className="btn btn-sm btn-primary text-xs"
-                href="/manufacturer"
+                href="/ManufacturerDetail"
                 rel="noopener noreferrer"
                 target="_blank"
               >

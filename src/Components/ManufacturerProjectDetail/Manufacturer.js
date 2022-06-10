@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../Assets/images/ProjectDetail/website-project-management-blog.png";
+import banner from "../../Assets/images/leather_factory.jpg";
 import Image from "../../Assets/images/leather_factory.jpg";
 import login from "../../Assets/images/ProjectDetail/smartmockups_l48ecg3a.jpg";
 import signUp from "../../Assets/images/ProjectDetail/smartmockups_l48edtxf.jpg";
@@ -123,7 +123,7 @@ const Manufacturer = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2  mx-auto my-10">
+      <div className=" lg:w-1/2 mx-12 lg:mx-auto my-10">
         <div class="card lg:card-side bg-base-100 shadow-xl">
           <div class="card-body">
           <div className="pt-1">

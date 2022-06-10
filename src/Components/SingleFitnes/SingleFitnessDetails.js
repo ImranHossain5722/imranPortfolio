@@ -1,14 +1,13 @@
 import React from "react";
-import banner from "../../Assets/images/carSale.jpg";
-import Image from "../../Assets/images/carSale.jpg";
-import login from "../../Assets/images/ProjectDetail/carLogin.jpg";
-import signUp from "../../Assets/images/ProjectDetail/carSign.jpg";
+import banner from "../../Assets/images/fitsness.jpg";
+import Image from "../../Assets/images/fitsness.jpg";
+import login from "../../Assets/images/ProjectDetail/fitnLogin.jpg";
+import signUp from "../../Assets/images/ProjectDetail/register.jpg";
+import homeLight from "../../Assets/images/ProjectDetail/fitnessHome.jpg";
+import manageItem from "../../Assets/images/ProjectDetail/mobile.jpg";
+import tab from "../../Assets/images/ProjectDetail/tab.jpg";
 
-import homeLight from "../../Assets/images/ProjectDetail/carSaleHome.jpg";
-import manageItem from "../../Assets/images/ProjectDetail/smartmockups_l48pavhy.jpg";
-import uploadProduct from "../../Assets/images/ProjectDetail/uploadProduc.jpg";
-
-const Manufacturer = () => {
+const SingleFitnessDetails = () => {
   return (
     <div>
       <div
@@ -25,11 +24,10 @@ const Manufacturer = () => {
           <div class="max-w-md">
             <h1 class="mb-5 text-3xl text-white font-bold">
               {" "}
-              CarSale warehouse
+              Single Fitness Trainer.
             </h1>
             <p class="mb-5 text-white">
-              This is a full stack web development project that utilizes MongoDB
-              as the back end database.
+              This is a  self independent selling service website
             </p>
             <a
               className="btn btn-primary btn-lg"
@@ -93,11 +91,11 @@ const Manufacturer = () => {
         {/* 4th */}
         <div class="card lg:card bg-base-100 shadow-xl">
           <figure>
-            <img className="w-96" src={uploadProduct} alt="Album" />
+            <img className="w-96" src={tab} alt="Album" />
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Upload pruduct </p>
+              <p className="text-primary ">Tab view</p>
             </div>
           </div>
         </div>
@@ -119,7 +117,7 @@ const Manufacturer = () => {
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Mange Product Item Page</p>
+              <p className="text-primary ">Mobile View </p>
             </div>
           </div>
         </div>
@@ -139,8 +137,8 @@ const Manufacturer = () => {
                 <li>
                   {" "}
                   <span className="text-primary font-bold">*-* </span>{" "}
-                  <span className="font-bold"> Project Name:</span> CareSlae
-                  Warhouse.
+                  <span className="font-bold"> Project Name:</span> Single
+                  Fitness Trainer.
                 </li>
                 <li>
                   {" "}
@@ -149,9 +147,8 @@ const Manufacturer = () => {
                 </li>
 
                 <li>
-                  <span className="text-primary font-bold">*-*</span> This is a
-                  full stack web development project that utilizes MongoDB as
-                  the back end database.
+                  <span className="text-primary font-bold">*-*</span> The
+                  project is an independent selling service.
                 </li>
                 <li>
                   <span className="text-primary font-bold">*-*</span>
@@ -160,26 +157,21 @@ const Manufacturer = () => {
                 </li>
                 <li>
                   <span className="text-primary font-bold ">*-*</span>
-                  Firebase and Google Accounts will be used for authentication
-                  as well as to order products.
+                  We will use Firebase-Authentication as well as Google Accounts
+                  and Github Accounts to authenticate users.
                 </li>
                 <li>
-                  <span className="text-primary font-bold ">*-*</span> API links
-                  will be protected with JWT.
-                </li>
-                <li>
-                  <span className="text-primary font-bold ">*-*</span> customers
-                  can order products. Admin can manage all orders, upload
-                  products, and cancel orders.
+                  <span className="text-primary font-bold ">*-*</span> We will
+                  be using Firebase - Authentication for users to login as well
+                  as using Google Accounts and Github account.
                 </li>
 
                 <li>
                   {" "}
                   <span className="text-primary font-bold">*-* </span>{" "}
                   <span className="font-bold"> Technology Used:</span> : React,
-                  HTMl ,CSS, Tailwind,Daisyui,JavaScript, React hook
-                  form,React-Toastify,Firebase,React-Query, React-firebase hook,
-                  Node.js, MongoDB,Jwt.
+                  React,HTML,CSS,Bootstrap,JavaScript,React-Toastify,Fir
+                  ebase,React-Query, React-firebase hook.
                 </li>
               </ul>
             </h2>
@@ -190,4 +182,4 @@ const Manufacturer = () => {
   );
 };
 
-export default Manufacturer;
+export default SingleFitnessDetails;

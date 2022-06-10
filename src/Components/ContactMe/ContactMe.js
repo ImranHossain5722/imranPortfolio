@@ -28,7 +28,7 @@ const ContactMe = () => {
         </div>
 
 
-        <div class="card flex-shrink-2 w-1/2 max-w-sm shadow-2xl  bg-base-100">
+        <div class="card flex-shrink-2 lg:w-1/2 shadow-2xl  bg-base-100">
           <div class="card-body">
               <div>
               <h1 className="text-4xl font-bold ">Contact Me </h1>

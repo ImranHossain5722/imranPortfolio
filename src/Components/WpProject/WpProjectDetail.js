@@ -1,16 +1,15 @@
 import React from "react";
-import banner from "../../Assets/images/carSale.jpg";
-import Image from "../../Assets/images/carSale.jpg";
-import login from "../../Assets/images/ProjectDetail/carLogin.jpg";
-import signUp from "../../Assets/images/ProjectDetail/carSign.jpg";
+import banner from "../../Assets/images/agancy.jpg";
+import Image from "../../Assets/images/agancy.jpg";
+import pages from "../../Assets/images/ProjectDetail/pages.jpg";
+import mobile from "../../Assets/images/ProjectDetail/tabMobile.jpg";
+import tablet from "../../Assets/images/ProjectDetail/tablet.jpg";
+import Lastpage from "../../Assets/images/ProjectDetail/2page.jpg";
+import laptop from "../../Assets/images/ProjectDetail/laptop.jpg";
 
-import homeLight from "../../Assets/images/ProjectDetail/carSaleHome.jpg";
-import manageItem from "../../Assets/images/ProjectDetail/smartmockups_l48pavhy.jpg";
-import uploadProduct from "../../Assets/images/ProjectDetail/uploadProduc.jpg";
-
-const Manufacturer = () => {
-  return (
-    <div>
+const WpProjectDetail = () => {
+    return (
+        <div>
       <div
         style={{
           background: `url(${banner})`,
@@ -25,11 +24,10 @@ const Manufacturer = () => {
           <div class="max-w-md">
             <h1 class="mb-5 text-3xl text-white font-bold">
               {" "}
-              CarSale warehouse
+              techntag
             </h1>
             <p class="mb-5 text-white">
-              This is a full stack web development project that utilizes MongoDB
-              as the back end database.
+              This is a full wordpress CMS build project
             </p>
             <a
               className="btn btn-primary btn-lg"
@@ -70,11 +68,11 @@ const Manufacturer = () => {
         {/* 2nd */}
         <div class="card lg:card bg-base-100 shadow-xl">
           <figure>
-            <img className="w-96" src={login} alt="Album" />
+            <img className="w-96" src={pages} alt="Album" />
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Login Page </p>
+              <p className="text-primary "> All section  </p>
             </div>
           </div>
         </div>
@@ -82,44 +80,44 @@ const Manufacturer = () => {
 
         <div class="card lg:card bg-base-100 shadow-xl">
           <figure>
-            <img className="w-96" src={signUp} alt="Album" />
+            <img className="w-96" src={mobile} alt="Album" />
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Sign Up Page </p>
+              <p className="text-primary ">Mobile view </p>
             </div>
           </div>
         </div>
         {/* 4th */}
         <div class="card lg:card bg-base-100 shadow-xl">
           <figure>
-            <img className="w-96" src={uploadProduct} alt="Album" />
+            <img className="w-96" src={laptop } alt="Album" />
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Upload pruduct </p>
+              <p className="text-primary ">Laptop view</p>
             </div>
           </div>
         </div>
         {/* 5th */}
         <div class="card lg:card bg-base-100 shadow-xl">
           <figure>
-            <img className="w-96" src={homeLight} alt="Album" />
+            <img className="w-96" src={tablet} alt="Album" />
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Home Page</p>
+              <p className="text-primary ">Tablet View</p>
             </div>
           </div>
         </div>
         {/* 6th */}
         <div class="card lg:card bg-base-100 shadow-xl">
           <figure>
-            <img className="w-96" src={manageItem} alt="Album" />
+            <img className="w-96" src={Lastpage} alt="Album" />
           </figure>
           <div class="card-body">
             <div class="">
-              <p className="text-primary ">Mange Product Item Page</p>
+              <p className="text-primary "> plane section</p>
             </div>
           </div>
         </div>
@@ -139,8 +137,7 @@ const Manufacturer = () => {
                 <li>
                   {" "}
                   <span className="text-primary font-bold">*-* </span>{" "}
-                  <span className="font-bold"> Project Name:</span> CareSlae
-                  Warhouse.
+                  <span className="font-bold"> Project Name:</span> techntag
                 </li>
                 <li>
                   {" "}
@@ -149,37 +146,23 @@ const Manufacturer = () => {
                 </li>
 
                 <li>
-                  <span className="text-primary font-bold">*-*</span> This is a
-                  full stack web development project that utilizes MongoDB as
-                  the back end database.
+                  <span className="text-primary font-bold">*-*</span> This Single Page website 
                 </li>
                 <li>
-                  <span className="text-primary font-bold">*-*</span>
-                  Users can create accounts using their email address and
-                  password.
+                  <span className="text-primary font-bold">*-*</span> Users can  choose plane services 
                 </li>
                 <li>
-                  <span className="text-primary font-bold ">*-*</span>
-                  Firebase and Google Accounts will be used for authentication
-                  as well as to order products.
+                  <span className="text-primary font-bold">*-*</span>  Users can  do live chat author or manger.
                 </li>
                 <li>
-                  <span className="text-primary font-bold ">*-*</span> API links
-                  will be protected with JWT.
-                </li>
-                <li>
-                  <span className="text-primary font-bold ">*-*</span> customers
-                  can order products. Admin can manage all orders, upload
-                  products, and cancel orders.
+                  <span className="text-primary font-bold ">*-*</span>  User can use contact form and conntected website manger 
                 </li>
 
                 <li>
                   {" "}
                   <span className="text-primary font-bold">*-* </span>{" "}
-                  <span className="font-bold"> Technology Used:</span> : React,
-                  HTMl ,CSS, Tailwind,Daisyui,JavaScript, React hook
-                  form,React-Toastify,Firebase,React-Query, React-firebase hook,
-                  Node.js, MongoDB,Jwt.
+                  <span className="font-bold"> Technology Used:</span> : Wordpress CMS, Ocen Wp Theme, 
+                  Eelementor pro, builder ,particles.js, crisp live chat, 
                 </li>
               </ul>
             </h2>
@@ -190,4 +173,4 @@ const Manufacturer = () => {
   );
 };
 
-export default Manufacturer;
+export default WpProjectDetail;

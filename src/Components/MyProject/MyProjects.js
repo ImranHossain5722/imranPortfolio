@@ -137,7 +137,7 @@ const MyProjects = () => {
 
               <a
                 className="btn btn-sm btn-primary text-xs"
-                href="#"
+                href="/singleFitnessDetails"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -153,33 +153,31 @@ const MyProjects = () => {
           <div class="card-body">
             <h2 class="card-title">Web Agency </h2>
             <p className="text-left text-sm" >
-              The project is an independent selling service.Users can create
-              accounts using their email address and password. We will use
-              Firebase-Authentication as well as Google Accounts and Github
-              Accounts to authenticate users.
+              The project is an web agency sell are a digital marketing and software development company that provides cutting edge IT solutions. this project  build wordpressCMS
+              
             </p>
             <div class="card-actions justify-end">
               <a
                 className="btn btn-sm btn-primary text-xs"
-                href=" https://single-fitness-trainer.web.app/"
+                href=" http://techntag.com/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 Live Site
               </a>
 
-              <a
+              {/* <a
                 className="btn btn-sm btn-primary text-xs"
                 href="https://github.com/ImranHossain5722/independentService"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 GitHub Link
-              </a>
+              </a> */}
 
               <a
                 className="btn btn-sm btn-primary text-xs"
-                href="#"
+                href="/wpProjectDetail"
                 rel="noopener noreferrer"
                 target="_blank"
               >
